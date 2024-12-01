@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#FFFFFF"> <!-- White Background -->
+
+    <!-- Enter Budget EditText -->
+    <EditText
+        android:id="@+id/budgetEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Budget"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Save Budget Button - Purple -->
+    <Button
+        android:id="@+id/saveBudgetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Budget"
+        android:textColor="#FFFFFF"
+        android:background="#6200EA"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+</LinearLayout>

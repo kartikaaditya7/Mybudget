@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/balanceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income: ₹0.0 | Expense: ₹0.0"
+            android:textSize="22sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold" />
+
+        <!-- Default Button Style -->
+        <Button
+            android:id="@+id/incomeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track Income"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/expenseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Track Expense"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/setBudgetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Budget"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/viewTransactionsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Transactions"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_marginBottom="15dp" />
+    </LinearLayout>
+</RelativeLayout>
